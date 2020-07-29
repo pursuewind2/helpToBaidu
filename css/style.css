@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+#text {
+	max-width: 480px;
+	width: calc(100% - 108px);
+	padding-right: 48px
+	opacity: 1;
+	height: 44px;
+	padding: 12px 16px;
+	font-size: 16px;
+	margin: 0;
+	vertical-align: top;
+	outline: 0;
+	box-shadow: none;
+	border-radius: 10px 0 0 10px;
+	border: 2px solid #4e6ef2;
+	background: #fff;
+	color: #222;
+	overflow: hidden;
+	float: left;
+}
+#button {
+	width: 108px;
+	height: 44px;
+	line-height: 45px;
+	line-height: 44px\9;
+	padding: 0;
+	background: 0 0;
+	background-color: #4e6ef2;
+	border-radius: 0 10px 10px 0;
+	font-size: 17px;
+	color: #fff;
+	box-shadow: none;
+	font-weight: 400;
+	border: none;
+	outline: 0;
+	cursor: pointer;
+	float: left;
+}
+#search:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#search {
+	width: 100%;
+	max-width: 588px;
+	margin: 30px auto 30px auto;
+}
+#tips{
+	text-align: center;
+	color: #828282;
+}
+#container{
+	margin: 0 auto;
+	width: 90%;
+}
+#mouse img{
+	width: 100%;
+	height: 100%;
+}
+#mouse{
+	width: 17px;
+	height: 25px;
+	position: fixed;
+	top: 0;
+	display: none;
+}
+#baidulogo img{
+	width: 100%;
+	height: 100%;
+}
+#baidulogo{
+	width: 150px;
+	height: 50px;
+	margin: 20px auto 0 auto;
+}
+
+#generater{
+	width: 100%;
+	max-width: 588px;
+	margin: 50px auto 0 auto;
+	text-align: center;
+	display: none;
+	border: #5387ff solid 2px;
+	border-radius: 10px;
+	padding: 10px;
+	overflow-wrap: break-word;
+}
+
+#gTitle1, #gTitle2{
+	font-size: 18px;
+	color: #4E6EF2;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#gTitle2{
+	margin-top: 10px;
+}
+
+#longUrl, #shortUrl1, #shortUrl2{
+	font-size: 16px;
+}
+
+#gTitle2, #shortUrl, #shortUrl2{
+	display: none;
+}
+
+#footer{
+	width: 100%;
+	position: fixed;
+	bottom: 20px;
+	left: 0;
+	text-align: center;
+	color: #828282;
+	font-size: 16px;
+}
+
+#footer a{
+	color: #828282;
+}

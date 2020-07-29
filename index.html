@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>帮你百度</title>
+		<meta name="Description" content="对伸手党感到厌烦,不想回答一些低级的问题，马上使用“帮你百度”小工具吧。"/>
+		<meta name="Keywords" content="拒绝伸手党,帮你百度,欲追风"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<div id="baidulogo">
+				<img src="images/baidu.png" alt="">
+			</div>
+			<div id="search">
+				<input type="text" id="text">
+				<input type="submit" id="button" value="百度一下" onclick="generatePage();">
+			</div>
+			<div id="tips">
+				<span>输入关键词点击按钮，生成“帮你百度”页面</span>
+			</div>
+			
+			<div id="generater">
+				<span id="gTitle1">页面网址：</span>
+				<span id="longUrl"></span>
+				<span id="gTitle2">缩短网址：</span>
+				<span id="shortUrl1"></span>
+				<span id="shortUrl2"></span>
+			</div>
+			
+			<div id="footer">
+				<span onclick="javascript:window.location.href = window.location.protocol + '//' + window.location.host + window.location.pathname;">点击生成这种页面</span>
+				<p>Designed by <a href="https://www.pursuewind.com/" target="_blank">欲追风</a></p>
+			</div>
+		</div>
+		
+		<div id="mouse">
+			<img src="images/mouse.png" alt="">
+		</div>
+		
+		
+		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+		<script src="js/effect.js?8" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			checkShow();
+		</script>
+
+	</body>
+</html>
