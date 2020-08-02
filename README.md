@@ -14,7 +14,7 @@
 
 # 在线演示
 
-https://www.pursuewind.com/tools/helpToBaidu/
+https://tools.pursuewind.com/helpToBaidu/
 
 # 设计思路
 
